@@ -115,7 +115,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "gerb")
+			(outputdirectory "gerb_C3")
 		)
 	)
 	(net 0 "")
@@ -727,7 +727,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R3"
-			(at 0 -1.17 360)
+			(at 0 -1.17 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "4be81773-2e99-4115-b1da-bcbc245049b8")
@@ -739,7 +739,7 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "673478ad-b637-4792-836e-580cd6b165eb")
 			(effects
@@ -894,7 +894,7 @@
 			(uuid "6b468ca0-ca9f-47f7-a8eb-24c069a870d6")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "67225d71-64fd-4392-8f64-532ac8b8430b")
 			(effects
@@ -1570,7 +1570,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R2"
-			(at 0 -1.17 360)
+			(at 0 -1.17 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "52be1ac8-4ad0-4d56-bd8f-4e9869292618")
@@ -1582,7 +1582,7 @@
 			)
 		)
 		(property "Value" "5,1kΩ"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "50152cd4-6042-4a52-9b65-015333c2963b")
 			(effects
@@ -1737,7 +1737,7 @@
 			(uuid "d99c64ee-0e59-4dc1-a7f2-d85774640636")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "8896f5ac-8c40-4e4a-a642-49685d5ffaef")
 			(effects
@@ -2576,7 +2576,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C1"
-			(at 0 -1.16 360)
+			(at 0 -1.16 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "c2fa3f98-3dce-4fec-b722-72aebc6029f4")
@@ -2588,7 +2588,7 @@
 			)
 		)
 		(property "Value" "1µF"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "29cc5436-4c8a-44d6-9c28-e84c555376a9")
 			(effects
@@ -2743,7 +2743,7 @@
 			(uuid "1f04f15e-19a5-46cd-9a0a-f6b7b17091d0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "36fdc207-cd08-4c4f-abbc-02b6c9de7b0f")
 			(effects
